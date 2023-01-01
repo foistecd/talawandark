@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Web Portal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet" type='text/css'>
+  <link href="css/style.css" rel="stylesheet" type='text/css'>
+  <link href="css/custom.css" rel="stylesheet" type='text/css'>
+  <link rel="shortcut icon" href="favicon.png" type="image/png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="apple-touch-startup-image" href="apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png">
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+</head>
+<body class="red">
+  <div class="container">
+    <header>
+      <div class="row">
+        <div class="logo">
+          <h1 class="text-center animated fadeInDown" style="margin-bottom:0;">Talawan<span style="font-weight:bold;">DARK</span> Web Portal</h1>
+          <h2 class="text-center animated fadeInDown">A Brave Rebelion</h2>
+        </div>
+      </div>
+    </header>
+
+	<!--
+    <div class="text-center alertmessage animated bounceIn delay">
+      <script language="JavaScript" src="https://feed2js.org//feed2js.php?src=http://talawanda.org/alerts/rss.xml&num;=5&targ=y&utf=y&html=a" charset="UTF-8" type="text/javascript"></script>
+    </div>
+	-->
+    <div class="row text-center animated fadeIn">
+      <form method="get" action="https://www.startpage.com/sp/search">
+        <input type="text" name="query" size="100%" placeholder="Startpage Search" class="searchform">
+      </form>
+    </div>
+
+
+	<div id="maindiv">
+		<h2 id="timer" class="animated fadeInDown timerStyle"></h2>
+	</div>
+
+    <div class="tabs">
+      <ul class="animated flipInX tabNavigation">
+        <li>
+          <a href="#students">Students</a>
+        </li>
+        <li>
+          <a href="#staff">Staff</a>
+        </li>
+		<li>
+          <a href="#about">About</a>
+		</li>
+      </ul>
+      <div id="students">
+        <div class="row text-center">
+          <div class="icon-effect">
+            <a target="_blank" rel="noopener noreferrer"href="https://mail.google.com/a/talawanda.org/" class="animated bounceIn  social-icon icon-envelope">
+            <h5>Gmail</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://drive.google.com/a/talawanda.org/" class="animated bounceIn  social-icon fa-file-text">
+            <h5>Google Drive</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://calendar.google.com/a/talawanda.org/" class="animated bounceIn  social-icon icon-calendar">
+            <h5>Google Calendar</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://classroom.google.com/" class="animated bounceIn  social-icon fa-users">
+            <h5>Google Classroom</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://hosted53.renlearn.com/111466/Public/RPM/Login/Login.aspx?srcID=s" class="animated bounceIn  social-icon fa-book">
+            <h5>Renaissance Place</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://www.pearsonrealize.com/community/" class="animated bounceIn  social-icon fa-commenting">
+            <h5>Pearson Realize</h5></a> <a target="_blank" rel="noopener noreferrer"href="http://student.teachtci.com/student/sign_in" class="animated bounceIn  social-icon fa-home">
+            <h5>Teach TCI</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://my.hrw.com/" class="animated bounceIn  social-icon fa-pie-chart">
+			<h5>MyHRW</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://quizlet.com/latest" class="animated bounceIn  social-icon icon-th-list">
+			<h5>Quizlet</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://kahoot.it/" class="animated bounceIn  social-icon fa-play">
+			<h5>Kahoot!</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://quizizz.com/join" class="animated bounceIn  social-icon fa-user">
+			<h5>Quizizz</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://www.edcite.com/go" class="animated bounceIn  social-icon fa-circle-thin">
+			<h5>Edcite</h5></a> <a target="_blank" rel="noopener noreferrer"href="http://www.act.org/content/act/en/products-and-services/the-act.html" class="animated bounceIn  social-icon fa-star-o">
+			<h5>ACT</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://www.collegeboard.org/" class="animated bounceIn  social-icon fa-star-o">
+			<h5>CollegeBoard</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://www.comicskingdom.com/family-circus" class="animated bounceIn  social-icon fa-calendar-o">
+			<h5>Family Circus</h5></a> <a target="_blank" rel="noopener noreferrer"href="http://www.infohio.org/" class="animated bounceIn  social-icon fa-power-off">
+            <h5>INFOhio</h5></a> <a target="_blank" rel="noopener noreferrer"href="http://infohio.swoca.net/opac/TA/TAHS/" class="animated bounceIn  social-icon fa-book">
+            <h5>THS Library Catalog</h5></a> <a target="_blank" rel="noopener noreferrer"href="http://infohio.swoca.net/opac/TA/TAMS/" class="animated bounceIn  social-icon fa-book">
+            <h5>TMS Library Catalog</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://parentaccess.swoca.net/Student/Grades" class="animated bounceIn  social-icon icon-signal">
+            <h5>ProgressBook</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://www.publicschoolworks.com/SHL/bullyingMgr.asp?di=29" class="animated bounceIn  social-icon fa-warning">
+            <h5>Report Bullying</h5></a> <a target="_blank" rel="noopener noreferrer"href="http://talawandatribune.org/" class="animated bounceIn  social-icon fa-bookmark">
+            <h5>Talawanda Tribune</h5></a> <a target="_blank" rel="noopener noreferrer"href="http://thsdailynews.talawanda.org/" class="animated bounceIn  social-icon fa-bookmark">
+            <h5>THS Daily News</h5></a> <a target="_blank" rel="noopener noreferrer"href="http://talawanda.org/" class="animated bounceIn  social-icon icon-home">
+            <h5>Talawanda.org</h5></a>
+          </div>
+        </div>
+      </div>
+      <div id="staff" style="display:none">
+        <div class="row text-center">
+          <div class="icon-effect">
+            <a target="_blank" rel="noopener noreferrer"href="https://mail.google.com/a/talawanda.org/" class="animated bounceIn  social-icon icon-envelope">
+            <h5>Gmail</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://drive.google.com/a/talawanda.org/" class="animated bounceIn  social-icon fa-file-text">
+            <h5>Google Drive</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://calendar.google.com/a/talawanda.org/" class="animated bounceIn  social-icon icon-calendar">
+            <h5>Google Calendar</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://groups.google.com/a/talawanda.org/" class="animated bounceIn  social-icon fa-users">
+            <h5>Google Groups</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://gradebook.swoca.net/" class="animated bounceIn  social-icon icon-signal">
+            <h5>ProgressBook</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://sis.swoca.net/" class="animated bounceIn  social-icon icon-info">
+            <h5>DASL</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://samegoal.com/iep/a/talawanda.org/" class="animated bounceIn  social-icon icon-th-list">
+            <h5>IEP Anywhere</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://talawanda.myedinsight.com/EdInsight/" class="animated bounceIn  social-icon fa-pie-chart">
+            <h5>EdInsight</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://classroom.google.com/" class="animated bounceIn  social-icon fa-users">
+            <h5>Google Classroom</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://play.google.com/edu" class="animated bounceIn  social-icon fa-play">
+            <h5>Google Play for Education</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://hosted53.renlearn.com/111466/Public/RPM/Login/Login.aspx?srcID=t" class="animated bounceIn  social-icon fa-book">
+            <h5>Renaissance Place</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://www.pearsonrealize.com/community/" class="animated bounceIn  social-icon fa-commenting">
+            <h5>Pearson Realize</h5></a> <a target="_blank" rel="noopener noreferrer"href="http://oh.portal.airast.org/ocba/teachers/" class="animated bounceIn  social-icon fa-circle-thin">
+            <h5>AIR Portal</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://drive.google.com/a/talawanda.org/folderview?id=0BwF3Qkkh7mibQlo2cmpOTndzYUk#list" class="animated bounceIn  social-icon fa-folder-open">
+            <h5>Staff-Only Resources</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://www.frontlinek12.com/Products/Aesop.html" class="animated bounceIn  social-icon fa-calendar-o">
+            <h5>Aesop</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://www.publicschoolworks.com/Pages/frameset.asp?di=29" class="animated bounceIn  social-icon fa-cogs">
+            <h5>PublicSchoolWorks</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://fm.talawanda.org/fmi/iwp/cgi?-db=IPDP%20Database&-loadframes" class="animated bounceIn  social-icon fa-user">
+            <h5>IPDP Records</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://www.ohiotpes.com/Account/Login.aspx" class="animated bounceIn  social-icon fa-apple">
+            <h5>Ohio eTPES</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://education.ohio.gov/" class="animated bounceIn  social-icon fa-external-link">
+            <h5>ODE</h5></a> <a target="_blank" rel="noopener noreferrer"href="http://infohio.org/" class="animated bounceIn  social-icon fa-power-off">
+            <h5>INFOhio</h5></a> <a target="_blank" rel="noopener noreferrer"href="http://www.boarddocs.com/oh/tsdoh/Board.nsf/Public" class="animated bounceIn  social-icon fa-archive">
+            <h5>BoardDocs</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://talawanda.org/support-desk" class="animated bounceIn  social-icon fa-desktop">
+            <h5>Tech Support Desk</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://docs.google.com/a/talawanda.org/forms/d/1omtQf-GCYYmvo8TNCr8I4XRbJ4WTXOaRO4_CAwJIihI/edit?usp=drive_web" class="animated bounceIn  social-icon fa-compress">
+            <h5>Technology Integration</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://www.publicschoolworks.com/Pages/login.asp?url=%2FPages%2FworkRequest.asp%3Fdi%3D29%26mi%3D7&psw_l=1&lms_l=&di=29&mi=7" class="animated bounceIn  social-icon fa-wrench">
+            <h5>Maintenance Request</h5></a> <a target="_blank" rel="noopener noreferrer"href="http://talawandatribune.org/" class="animated bounceIn  social-icon fa-bookmark">
+            <h5>Talawanda Tribune</h5></a> <a target="_blank" rel="noopener noreferrer"href="http://thsdailynews.talawanda.org/" class="animated bounceIn  social-icon fa-bookmark">
+            <h5>THS Daily News</h5></a> <a target="_blank" rel="noopener noreferrer"href="http://bravesbuzz.talawanda.org/" class="animated bounceIn  social-icon fa-bookmark">
+            <h5>TMS Braves Buzz</h5></a> <a target="_blank" rel="noopener noreferrer"href="https://www.talawanda.org/" class="animated bounceIn  social-icon fa-home">
+            <h5>Talawanda.org</h5></a>
+          </div>
+        </div>
+      </div>
+	  <div id="about" style="display:none">
+        <div class="row text-center" style="text-align:left;">
+		  <div class="icon-effect animated bounceIn ">
+			<h1 style="font-size:36px; font-weight:bold; text-align:center"> What is this? </h1>
+			<h1 style="font-size:30px"> This is a fork of the Talawanda Web Portal that was abandoned by the Talawanda School District in 2020 in favor of Abre. </h1>
+			<h1 style="font-size:30px"> Adopting Abre was a horrible mistake on Talawanda's part. This made navigating to the school's most used websites far more annoying. Abre is also a privacy hazard by disclosing what you do on their website to third parties. </h1>
+			<h1 style="font-size:30px"> Help Thanos-snap Abre by bookmarking the TalawanDARK Web Portal on your device and using it instead of Abre. </h1><br>
+			<img src="thanossnap.png" alt="Thanos Snap" style="display: block; margin-left: auto; margin-right: auto;"><br>
+			<h1 style="font-size:24px; font-family:Comic Sans MS, cursive, sans-serif"> "I miss it too." - Principal </h1>
+			<h1 style="font-size:24px; font-family:Comic Sans MS, cursive, sans-serif"> "In a time like this, students need the Talawanda Web Portal more than ever." - Student </h1>
+			<h1 style="font-size:24px; font-family:Comic Sans MS, cursive, sans-serif"> "AAAH! I HATE ABRE!" - Teacher </h1>
+			<h1 style="font-size:24px; font-family:Comic Sans MS, cursive, sans-serif"> "The Talawanda Web Portal is the only barrier between us and a bleak world populated solely by Abre. Is it the best web portal? No, but it's the lone thing we can cling to when all other hope is lost. Abre is a web portal that wants to know everything about me, but I stand against that and look towards an old but trustworthy artifact for protection: this heap of slightly-longer-than-it-needs-to-be rendering time. Ride, my brethren, towards our homeland." - Other Student </h1><br>
+		  </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center"></div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/tabs.js"></script>
+  </div>
+</body>
+</html>
